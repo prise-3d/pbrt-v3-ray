@@ -57,14 +57,14 @@ void Chemin::toPbrt(std::string filename){
   }
 
   // export du materiau des cylindres
-  out << "MakeNamedMaterial \"Rayon\"" << std::endl;
+  out << "MakeNamedMaterial \"HighRayon\"" << std::endl;
   out << "\t\"string type\" [\"uber\"]" << std::endl;
   out << "\t\"color Kd\" [0.43298 0.043298 0.043298]" << std::endl;
   out << "\t\"color Ks\" [0.47366 0.047366 0.047366]" << std::endl;
   out << "\t\"color Kr\" [0.000000 0.000000 0.000000]" << std::endl;
   out << std::endl;
 
-  out << "MakeNamedMaterial \"HighRayon\"" << std::endl;
+  out << "MakeNamedMaterial \"Rayon\"" << std::endl;
   out << "\t\"string type\" [\"uber\"]" << std::endl;
   out << "\t\"color Kd\" [0.20 0.043298 0.743298]" << std::endl;
   out << "\t\"color Ks\" [0.20 0.047366 0.77366]" << std::endl;
